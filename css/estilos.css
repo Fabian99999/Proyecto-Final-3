@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+    text-align: center;
+    font: bold;
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+}
+
+h1 {
+    color: #222222;
+    margin-bottom: 22px;
+    margin-top: 24px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0 auto;
+    padding-left: 10px;
+    max-width: 960px;
+}
+
+#menu ul li {
+    display: inline-block;
+    background-color: #6b6b6b;
+    margin: 10px;
+    border-radius: 18px;
+    box-shadow: 0px 1px 1px 2px rgb(211, 203, 203);
+}
+
+#menu ul li a {
+    color: #252525;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    background: #ffffff;
+    font-size: 28px;
+    border-radius: 18px;
+}
+
+#menu ul li a:hover {
+    background: #ffffff;
+    color: #272727;
+    box-shadow: 0 12px 12px 4px gray;
+}
+
+.centrar-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#menu ul li a.active {
+    background-color: #ce2525;
+    color: #ffffff;
+    box-shadow: 0px 12px 12px 4px gray;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #272727;
+    color: #FFF;
+    padding: 44px;
+    font-size: 18px;
+}
+/*Tabla*/
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 8px 8px 8px  rgba(212, 212, 212, 0.1);
+}
+thead th {
+    background-color: #f8f9fa;
+}
+table, th, td {
+    border: 2px solid #dee2e6;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+.columna-rojo {
+    background-color: #ff9898;
+    box-shadow: rgb(99, 232, 236);
+    border-radius:  6px;
+}
+.columna-naranja{
+    background-color: #db923f;
+}
+.columna-plomo {
+    background-color: #a3a3a3;
+    color: black;
+}
+.contenedor2{
+    display: flex;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    color: #252525;
+    padding: 44px;
+    font-size: 18px;
+}
+.btn-primary {
+    padding: 18px 38px;
+    font-size: 18px;
+    border-radius: 18px; 
+}
+.contenedor3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 28px;
+    
+}
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .button {
+        padding: 10px 12px;
+    }
+
+    .button i {
+        font-size: 1.4em;
+    }
+
+    form {
+        padding: 0 20px;
+    }
+}
+.post-content{
+    display: flex;
+    align-items: center;
+}
+.post-content img {
+    margin-right: 20px;
+}
+
+.blog-post {
+    margin-bottom: 40px;
+}
+.meta {
+    color: #555252;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.button {
+    display: inline-flex;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    position: relative;
+}
+.button i {
+    font-size: 1.6em;
+    margin-right: 18px;
+}
+.button:hover {
+    background-color: #ce2525;
+    
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a19d9d;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.textarea-button-container {
+    display: flex;
+    align-items: flex-start;
+}
+textarea {
+    flex: 1;
+    margin-right: 10px;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+button[type="submit"] {
+    background-color: #bd1a35;
+    color: #ffffff;
+    padding: 18px 20px ;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+button[type="submit"]:hover {
+    background-color: #e61359;
+    box-shadow: 0px 8px 8px 0px gray;
+}
+
+.video1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+video{
+    width: 100%;
+    max-width: 960px;
+    border-radius: 10px; 
+}
+.contenedor4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    max-width: 0 auto;
+
+}
